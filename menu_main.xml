@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="publish News" android:id="@+id/publishNews"
+    app:showAsAction="never"
+    />
+    <item android:title="signIn" android:id="@+id/signIn"
+        app:showAsAction="always"
+        />
+    <item android:title="Film News" android:id="@+id/filmNews"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>

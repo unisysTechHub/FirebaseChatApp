@@ -7,37 +7,21 @@
     android:layout_height="match_parent"
     tools:context="com.uisys.firebasechatapp.MainActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_alignParentTop="true"
-        android:background="?attr/colorPrimary"
-        android:visibility="visible"
-        app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-
     <ListView
-        android:layout_below="@+id/toolbar"
         android:id="@+id/listView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></ListView>
-
-
-
     <EditText
         android:id="@+id/sendMessage"
         android:layout_alignParentBottom="true"
         android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
         />
     <Button
         android:id="@+id/sendMessageButton"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/sendMessage"
         android:text="Send"
-        android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
